@@ -1,0 +1,46 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.1'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'war'
+	id 'jacoco'
+	id "org.sonarqube" version "3.3"
+}
+
+group = 'com.capg.onlinesportsshopee'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+/*sonarqube {
+    properties {
+        property 'sonar.sourceEncoding', 'UTF-8'
+        property "sonar.sources", "src"
+    }
+}*/
+
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	runtimeOnly 'org.postgresql:postgresql'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'org.hibernate.validator', name: 'hibernate-validator-annotation-processor', version: '7.0.1.Final'
+	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+	implementation group: 'org.jacoco', name: 'jacoco-maven-plugin', version: '0.8.1'
+	implementation 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+
+test {
+	useJUnitPlatform()
+}
