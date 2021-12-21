@@ -1,0 +1,30 @@
+2021-12-21 11:34:43.722  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : Starting OnlineSportsShopeeApplication using Java 16.0.2 on LIN76004070 with PID 19720 (C:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee\bin\main started by assamsud in C:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee)
+2021-12-21 11:34:43.724  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : No active profile set, falling back to default profiles: default
+2021-12-21 11:34:44.596  INFO 19720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-21 11:34:44.686  INFO 19720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 6 JPA repository interfaces.
+2021-12-21 11:34:45.206  INFO 19720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2021-12-21 11:34:45.217  INFO 19720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-21 11:34:45.218  INFO 19720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-21 11:34:45.374  INFO 19720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-21 11:34:45.375  INFO 19720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1606 ms
+2021-12-21 11:34:45.616  INFO 19720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-21 11:34:45.695  INFO 19720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-21 11:34:45.946  INFO 19720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-21 11:34:46.069  INFO 19720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-21 11:34:46.376  INFO 19720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-21 11:34:46.418  INFO 19720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-12-21 11:34:47.454  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2021-12-21 11:34:47.455  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_by1nk98m2hq5onhl68bo09sc1" of relation "card" does not exist, skipping
+2021-12-21 11:34:47.459  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2021-12-21 11:34:47.459  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_hg42un7hjecdwrwoe8jy8j87o" of relation "customers" does not exist, skipping
+2021-12-21 11:34:47.463  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2021-12-21 11:34:47.464  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_rfbvkrffamfql7cjmen8v976v" of relation "customers" does not exist, skipping
+2021-12-21 11:34:47.489  INFO 19720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-21 11:34:47.499  INFO 19720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-21 11:34:48.057  WARN 19720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-21 11:34:48.467  INFO 19720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2021-12-21 11:34:48.479  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : Started OnlineSportsShopeeApplication in 5.202 seconds (JVM running for 6.276)
+2021-12-21 11:40:09.787  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-21 11:40:09.828  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-21 11:40:09.830  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-21 11:40:09.834  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
