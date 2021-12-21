@@ -2,8 +2,6 @@ FROM openjdk:11
 
 VOLUME /tmp
 
-ARG JAR_FILE=*.war
+COPY build/libs/OnlineSportsShopee-0.0.1-SNAPSHOT.war oss.war
 
-COPY ${JAR_FILE} app.war
-
-ENTRYPOINT ["java","-jar","/app.war"]
+ENTRYPOINT ["java","-jar","/oss.war"]

@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: 'OnlineSportsShopee:latest'
+    image: 'oss:latest'
     build:
       context: .
     container_name: app
