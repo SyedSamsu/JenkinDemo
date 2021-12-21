@@ -1,5 +1,7 @@
 FROM openjdk:11
+
 FROM postgres
+
 ENV POSTGRES_PASSWORD=syedsamsu
 
 VOLUME /tmp
