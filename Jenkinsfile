@@ -10,14 +10,9 @@ pipeline {
             steps {
                 script{
                     withSonarQubeEnv('SonarQube') {
-                        bat 'gradle sonarqube -Dsonar.projectKey=DemoJenkinPipeline -Dsonar.login=admin -Dsonar.password=#CAPss24 -Dsonar.sources=src -Dsonar.host.url=http://127.0.0.1:9000'
+                        sh 'gradle sonarqube -Dsonar.projectKey=DemoJenkinPipeline -Dsonar.login=admin -Dsonar.password=syedsamsu -Dsonar.sources=src -Dsonar.host.url=http://192.168.0.103:9000/'
                     }
                 }
-            }
-        }
-        stage("Quality gate") {
-            steps {
-                waitForQualityGate abortPipeline: true
             }
         }
     }
