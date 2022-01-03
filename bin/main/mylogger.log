@@ -1,30 +1,23 @@
-2021-12-21 11:34:43.722  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : Starting OnlineSportsShopeeApplication using Java 16.0.2 on LIN76004070 with PID 19720 (C:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee\bin\main started by assamsud in C:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee)
-2021-12-21 11:34:43.724  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : No active profile set, falling back to default profiles: default
-2021-12-21 11:34:44.596  INFO 19720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-12-21 11:34:44.686  INFO 19720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 6 JPA repository interfaces.
-2021-12-21 11:34:45.206  INFO 19720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
-2021-12-21 11:34:45.217  INFO 19720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-21 11:34:45.218  INFO 19720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-21 11:34:45.374  INFO 19720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-12-21 11:34:45.375  INFO 19720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1606 ms
-2021-12-21 11:34:45.616  INFO 19720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-12-21 11:34:45.695  INFO 19720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
-2021-12-21 11:34:45.946  INFO 19720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-12-21 11:34:46.069  INFO 19720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-12-21 11:34:46.376  INFO 19720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-12-21 11:34:46.418  INFO 19720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-12-21 11:34:47.454  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2021-12-21 11:34:47.455  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_by1nk98m2hq5onhl68bo09sc1" of relation "card" does not exist, skipping
-2021-12-21 11:34:47.459  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2021-12-21 11:34:47.459  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_hg42un7hjecdwrwoe8jy8j87o" of relation "customers" does not exist, skipping
-2021-12-21 11:34:47.463  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2021-12-21 11:34:47.464  WARN 19720 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_rfbvkrffamfql7cjmen8v976v" of relation "customers" does not exist, skipping
-2021-12-21 11:34:47.489  INFO 19720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-12-21 11:34:47.499  INFO 19720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-12-21 11:34:48.057  WARN 19720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-12-21 11:34:48.467  INFO 19720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
-2021-12-21 11:34:48.479  INFO 19720 --- [main] c.c.o.OnlineSportsShopeeApplication      : Started OnlineSportsShopeeApplication in 5.202 seconds (JVM running for 6.276)
-2021-12-21 11:40:09.787  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2021-12-21 11:40:09.828  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-12-21 11:40:09.830  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-12-21 11:40:09.834  INFO 19720 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-03 10:34:23.846  INFO 19424 --- [main] c.c.o.OnlineSportsShopeeApplication      : Starting OnlineSportsShopeeApplication using Java 15 on LIN76004070 with PID 19424 (C:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee\bin\main started by assamsud in c:\Personal\Notes\Java Spring Notes\Jenkins\OnlineSportsShopee)
+2022-01-03 10:34:23.854  INFO 19424 --- [main] c.c.o.OnlineSportsShopeeApplication      : No active profile set, falling back to default profiles: default
+2022-01-03 10:34:24.619  INFO 19424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-03 10:34:24.723  INFO 19424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 6 JPA repository interfaces.
+2022-01-03 10:34:25.305  INFO 19424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2022-01-03 10:34:25.315  INFO 19424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-03 10:34:25.315  INFO 19424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-03 10:34:25.487  INFO 19424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-03 10:34:25.487  INFO 19424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1582 ms
+2022-01-03 10:34:25.707  INFO 19424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-03 10:34:25.760  INFO 19424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-03 10:34:25.949  INFO 19424 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-03 10:34:26.045  INFO 19424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-03 10:34:26.286  INFO 19424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-03 10:34:26.317  INFO 19424 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-01-03 10:34:27.330  INFO 19424 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-03 10:34:27.336  INFO 19424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-03 10:34:27.960  WARN 19424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-03 10:34:28.403  INFO 19424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2022-01-03 10:34:28.415  INFO 19424 --- [main] c.c.o.OnlineSportsShopeeApplication      : Started OnlineSportsShopeeApplication in 4.926 seconds (JVM running for 5.653)
+2022-01-03 10:35:45.924  INFO 19424 --- [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-03 10:35:45.925  INFO 19424 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-03 10:35:45.927  INFO 19424 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
